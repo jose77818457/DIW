@@ -1,0 +1,184 @@
+/* CSS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../img/section2.jpg");
+    /* Center and scale the image nicely */
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Calibri-light', Arial, Verdana, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Arial', Arial, Verdana, sans-serif;
+    color: #000000;
+}
+
+a{
+    font-family: 'sans-serif', Arial, Verdana, sans-serif;
+    color: #000000;
+}
+nav{
+    background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration-line: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.section-1 {
+    text-align: center;
+    margin: 0;
+    padding: 210px 0px;
+    height: 100%;
+}
+
+.section-1 p {
+    font-size: 20px;
+}
+
+.section-2 {
+    max-width: 100%;
+    height: 70%;
+}
+
+.section-2 p {
+    font-size: 20px;
+}
+
+
+#sectionCaracteristicas {
+    background-color: #c0c0c0;
+    margin-bottom: 4%;
+}
+
+#sectionCaracteristicas p {
+    font-size: 15px;
+}
+
+div.transparente {
+    background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
+}
+
+#sectionCalidad{
+    padding-bottom: 15px;
+}
+
+#panelAction {
+    background-color: silver;
+}
+
+.my-row {
+    margin-top: 0px;
+    padding: 50px 0;
+    background-color: silver;
+}
+
+.card {
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+.form-control-label {
+    margin-bottom: 0;
+}
+
+.transparente{
+    background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+}
+
+.btn-block:hover {
+    color: #036 !important;
+}
+
+#buttonForm {
+    background-color: silver;
+    float: right;
+    width: 25%;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+    background-color: rgb(161, 162, 163) !important;
+}
+
+footer {
+    background-color: #00000033;
+}
+
+/* Media-queries */
+/* SM */
+@media (min-width: 576px) {}
+
+/* MD */
+@media (max-width:38em) {}
+
+/* LG */
+@media (min-width: 992px) {}
+
+/* XL */
+@media (min-width: 1200px) {}
