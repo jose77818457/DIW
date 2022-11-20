@@ -24,6 +24,7 @@ h6 {
     font-family: 'Calibri-light', Arial, Verdana, sans-serif;
     text-align: center;
     color: #000000;
+    font-size: 35px;
 }
 
 h2 {
@@ -66,7 +67,7 @@ nav a {
 
 .section-2 {
     max-width: 100%;
-    height: 70%;
+    height: 85%;
 }
 
 .section-2 p {
