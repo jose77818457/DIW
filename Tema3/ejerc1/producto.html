@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Titillium+Web:900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Font Awesome CSS -->
+    <!-- My CSS -->
+    <link href="assets/css/producto.css" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+          $(document).scroll(function () {
+            var $nav = $(".navbar");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            var $li = $(".nav-item a");
+            $li.toggleClass('scrolled-li', $(this).scrollTop() > $li.height());
+            var $btn = $(".navbar .navbar-toggler");
+            $btn.toggleClass('scrolled-btn', $(this).scrollTop() > $btn.height());
+          });
+        });
+      </script>
+    <title>DIW | Tema 3</title>
+</head>
+<header>
+    <nav class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-center">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="../ejerc1/assets/img/logo-marea.png" alt="" width="150" height="50"
+                            class="d-inline-block align-text-top">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./producto.html">Producto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./biografia.html">Quiénes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./musica.html">Escúchanos</a>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+</header>
+
+<body class="background-discografia">
+    <article class="margin-menu">
+        <div class="container mt-5 mb-5">
+            <h1>Discografía</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/discografia/discografia1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">Los Potros del Tiempo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./assets/img/discografia/discografia2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">El Azogue</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/discografia/discografia3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">En Mi Hambre Mando Yo</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/discografia/discografia4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">Las Putas Mas Viejas Del Mundo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./assets/img/discografia/discografia5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">Jauría de Perros Verdes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./assets/img/discografia/discografia6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">Las Aceras Están Llenas de Piojos</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/discografia/discografia7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">28.000 Puñaladas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./assets/img/discografia/discografia8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">Besos de Perro</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./assets/img/discografia/discografia9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">Revolcón</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/discografia/discografia10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body-discografia">
+                            <h5 class="card-title text-center">La Patera</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+</body>
+<footer class="footer-color">
+    <div class="container">
+        <div class="container footer-color-formulario mb-5">
+            <form>
+                <div class="row ">
+                    <div class="col-md-3 footer-text-left">
+                        <h6>REGISTRATE PARA</h6>
+                        <h3>CONOCER LAS ÚLTIMAS NOTICIAS</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input class="form-control w-100" type="mail" placeholder="Email address"
+                                id="example-search-input">
+                            <span class="input-group-append">
+                                <button
+                                    class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5"
+                                    type="button">
+                                    <i class="bi-send"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-text-right">
+                        <h6 class="text-right">CONSIGUE LA ÚLTIMA</h6>
+                        <h3 class="text-right">HORA SOBRE NOSOTROS</h3>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="container d-flex justify-content-center ">
+            <div class="row footer-text-both mt-5 ">
+                <div class="col-md-4">
+                    <h3 class="text-center">Nuestros Albumes</h3>
+                    <p>El Azogue</p>
+                    <p>En mi hambre mando yo</p>
+                    <p>Los potros del tiempo</p>
+                    <p>Besos de perro</p>
+                    <p>Revolcón</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center">Descargas disponibles</h3>
+                    <p>Obten toda nuestra música en iTunes, Google Play, Amazon, Spotify o Sound Cloud </p>
+                    <div class="d-flex justify-content-center icons-music">
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <i class="bi bi-apple bi-lg m-4"></i>
+                                <i class="bi bi-google-play m-4"></i>
+                                <i class="bi bi-spotify m-4"></i>
+                                <i class="bi bi-soundwave m-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center">Contacta con nosotros</h3>
+                    <p>C/ Dir , Navarra, NA 41111</p>
+                    <p>888 888 888</p>
+                    <p>888 888 888</p>
+                    <p>marea@marea.es</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <i class="bi bi-facebook m-4"></i>
+                <i class="bi bi-twitter m-4"></i>
+                <i class="bi bi-google m-4"></i>
+                <i class="bi bi-instagram m-4"></i>
+                <i class="bi bi-pinterest m-4"></i>
+            </div>
+        </div>
+        <p class="text-center mt-5">© COPYRIGHT 2023. ALL RIGHTS RESERVED.</p>
+    </div>
+</footer>
+
+</html>
