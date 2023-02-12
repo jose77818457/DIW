@@ -1,0 +1,372 @@
+/* CSS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.img-marea {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: transparent !important;
+}
+
+
+.nav-item {
+    margin-left: 4em !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 1px solid #ffffff;
+    list-style: none outside none;
+    padding-right: 70px;
+}
+
+.navbar.scrolled {
+    background-color: #8B8888 !important;
+    transition: background-color 200ms linear;
+}
+
+
+.nav-item a:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.fondo-marea {
+    background-image: url("../img/MareaBody.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.official-store {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1C21;
+    color: #ffffff;
+}
+
+.img-bateria {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.full-video {
+    width: 100%;
+    height: 300px;
+}
+
+.card-body {
+    padding-top: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.background-kutxi {
+    background-image: url("../img/KutxiRomero.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.background-edu {
+    background-image: url("../img/Edu_beaumont.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.background-kolibri {
+    background-image: url("../img/kolibri.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.background-cesar {
+    background-image: url("../img/Cesar_Ramallo.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.background-alen {
+    background-image: url("../img/alen_ayerdi.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.horizontal {
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline;
+    border-left: 2px solid;
+    padding-left: 0.3em;
+}
+
+.first {
+    border-left: none;
+    padding-left: 0;
+}
+
+.container-carousel {
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-bottom: 100px;
+
+}
+
+.img-carusel {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px
+}
+
+
+.card-body-discos {
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+.discografia {
+    width: 250px;
+    height: 250px;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+
+.nombre-correo-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/humo-banner.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    margin-top: 7%;
+}
+
+.container-formulario {
+    width: 60%;
+    color: #ffffff;
+}
+
+.form-control {
+    width: 100% !important;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-body-news{
+    padding-top: 10%;
+    text-align: justify;
+    margin: auto;
+}
+
+
+
+.container-icons{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-color{
+    background-color: #1D1C21;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-color-formulario{
+    background-color: #57C3D4;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.footer-text-left{
+    text-align: left;
+}
+
+.footer-text-right{
+    text-align: right;
+}
+
+.footer-text-both{
+    text-align: center;
+}
+
+.icons-music{
+    font-size: 2.0em;
+}
+
+.ms-n5 {
+    margin-left: -40px;
+}
+
+/*CSS PRODUCTO/DISCOGRAFIA*/
+.card-body-discografia{
+    background-color: #333333;
+    padding-top: 10%;
+    text-align: justify;
+    width: 100%;
+}
+
+
+/* Media-queries */
+/* SM */
+
+
+@media only screen and (max-width: 400px) and (min-width: 200px) {
+   
+}
+
+/* MD */
+
+@media only screen and (max-width: 650px) and (min-width: 400) {
+   
+}
+
+/* LG */
+@media only screen and (max-width: 900px) and (min-width: 400px) {
+    .container-padding-top {
+        padding-top: 0;
+    }
+
+    .styleGrandHotel {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container-width-50 {
+        width: 100%;
+    }
+
+    .container-width-75 {
+        width: 100%;
+    }
+
+    .section-size {
+        height: auto;
+    }
+
+    .generalRed-h4 {
+        font-size: 16px;
+    }
+
+    /*.navbar {
+        position: fixed;
+    }
+
+    .navbar.scrolled {
+        background-color: #000000 !important;
+        color: #ffffff;
+        transition: background-color 200ms linear;
+      }
+    
+      .navbar .nav-item a .scrolled {
+        color: #ffffff;
+      }*/
+}
+
+/* XL */
+@media only screen and (max-width: 1100px) and (min-width: 750px) {
+    
+
+    /*.navbar.scrolled {
+        background-color: #000000 !important;
+        color: #ffffff;
+        transition: background-color 200ms linear;
+      }
+    
+      .navbar .nav-item a .scrolled {
+        color: #ffffff;
+      }*/
+}
+
+@media only screen and (max-width: 2000) and (min-width: 1100px) {
+   /* .navbar {
+        position: fixed;
+    }
+
+    .navbar.scrolled {
+        background-color: #8B8888 !important;
+        transition: background-color 200ms linear;
+    }*/
+    
+    
+}
