@@ -1,0 +1,150 @@
+/* CSS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-item {
+    margin-left: 4em !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 1px solid #9B9A9A;
+    list-style: none outside none;
+    padding-right: 70px;
+}
+
+.navbar.scrolled {
+    background-color: #8B8888 !important;
+    transition: background-color 200ms linear;
+}
+
+
+.nav-item a:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.nav-link{
+    color: #000000!important;
+}
+
+/*CSS CONTACTO*/
+
+.background-discografia{
+    background-color: #F2F2F2;
+}
+
+.background-contacto{
+    margin-top: 10%;
+    padding-top: 10%;
+    margin-bottom: 15%;
+}
+
+.footer-color{
+    background-color: #1D1C21;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-color-formulario{
+    background-color: #57C3D4;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.footer-text-left{
+    text-align: left;
+}
+
+.footer-text-right{
+    text-align: right;
+}
+
+.footer-text-both{
+    text-align: center;
+}
+
+.icons-music{
+    font-size: 2.0em;
+}
+
+.ms-n5 {
+    margin-left: -40px;
+}
+
+
+
+
+/* Media-queries */
+/* SM */
+
+@media only screen and (max-width: 400px) and (min-width: 200px) {
+   
+
+    #navbarNav [aria-expanded="true"] ~ .margin-menu {
+        margin-top: 60%;
+    }
+   
+    .margin-menu{
+        margin-top: 30%;
+    }
+}
+
+
+/* MD */
+
+@media only screen and (max-width: 650px) and (min-width: 400) {
+   
+}
+
+/* LG */
+@media only screen and (max-width: 900px) and (min-width: 400px) {
+   
+}
+
+/* XL */
+@media only screen and (max-width: 1100px) and (min-width: 750px) {
+    .container-padding-top {
+        padding-top: 0;
+    }
+
+    .styleGrandHotel {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container-width-50 {
+        width: 100%;
+    }
+
+    .container-width-75 {
+        width: 100%;
+    }
+
+    .section-size {
+        height: auto;
+    }
+
+    .generalRed-h4 {
+        font-size: 16px;
+    }
+}
